@@ -1,0 +1,691 @@
+@media screen and (min-width: 800px) {
+
+div {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Arial;
+}
+
+h2, h3, h4, h5, h6 {
+	color: #003399;
+}
+
+h1 {
+	color: #003399;
+	text-decoration: underline;
+}
+
+p {
+	color: black;
+}
+
+.navigation li {
+	color: black;
+}
+
+#benefits li {
+	color: #3d3d5c;
+}
+
+.navigation {
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	border-style: solid;
+	height: 100%;
+	border-top: none;
+	border-right: solid;
+	border-bottom: none;
+	border-left: none;	
+	float: left;
+	position: fixed;
+}
+
+.body {
+	display: inline-block;
+	width: 74%;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	float: right;
+}
+
+.navigation ul {
+	text-decoration: none;
+	list-style-type: none;
+	border-color: black;
+	padding: 0%;
+}
+
+.navigation ul a {
+	color: black;
+	list-style-type: none;
+	text-align: justify;
+	padding: 2%;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navigation ul li {
+	color: black;
+}
+
+.navigation a:visited {
+	color: black;
+}
+
+.navigation li:hover {
+	text-decoration: underline;
+}
+
+#social {
+	display: block;
+	text-align: center;
+	margin: 7.5% 0 0 4%;
+}
+
+#social img {
+	width: 7.5%;
+}
+
+#social img:hover {
+	opacity: 0.3;
+}	
+
+#social h5 {
+	display: block;
+	border-style: solid;
+	padding: 0;
+}
+
+#padding {
+	height: 15%;
+}
+
+#logo {
+	display: block;
+	text-align: center;
+}
+
+#logo img {
+	width: 50%;
+}
+
+#shopNow {
+	text-align: center;
+	margin: 0% 1.25% 0% 0%;
+	padding: 0%;
+}
+
+#shopNow a {
+	text-decoration: none;
+	color: #003399;
+}
+
+#shopNow a:hover {
+	border-style: solid;
+	padding: 1.25%;
+}
+
+.body h1 {
+	text-align: center;
+}
+
+#marquee {
+	display: inline-block;
+	padding: 0%;
+	margin: 0%;
+}
+
+#marquee h4 {
+	display: inline-block;
+	width: 22%;
+	float: left;
+}
+
+marquee {
+	width: 78%;
+	float: right;
+	margin: 2.2% 0% 0% 0%;
+}
+
+#sectors {
+	text-align: center;	
+}
+
+#sectors img {
+	width: 100%;	
+	text-align: center;
+	display: inline-block;
+	margin: auto;
+}
+
+#sectors img:hover {
+	opacity: 0.3;
+}
+
+#sector1, #sector2, #sector3, #sector4 {
+	width: 15%;
+	padding: 1.6% 1.6% 1.6% 1.6%;
+	opacity: 1;
+	display: inline-block;
+}
+
+#sectors h3 {
+	text-decoration: ;
+	line-height: 125%;
+}
+
+#welcome h3 {
+	text-align: center;
+}
+
+#welcome p {
+	text-align: center;
+	padding: 0% 0% 0% 0%;
+	line-height: 150%;
+}
+
+#testimonials {
+	text-align: center;
+	padding: 0% 0% 0% 0%;
+}
+
+#benefits {
+	text-align: center;
+}
+
+#benefits h3 {
+	margin: 0;
+}
+
+#list {
+	margin: 0;
+}
+
+#half1, #half2 {
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+}
+
+#half1, #half2 ul {
+	text-align: left;
+}
+
+#benefits li {
+	padding: 5% 0% 0% 0%;
+}
+
+#baTitle {
+	text-align: center;
+}
+
+#beforeAfter {
+	text-align: center;
+	margin: 2.5% 20% 2.5% 20%;
+	height: 30%;
+}
+
+#beforeAfter h3{
+	text-align: center;
+}
+
+#description h3 {
+	text-align: center;
+}
+
+#description p {
+	text-align: center;
+	line-height: 150%;
+	margin: 0% 5% 0% 5%;
+}
+
+#products {
+	width: 48%;
+	display: inline-block;
+	float: left;
+	line-height: 150%;
+	padding: 0% 2.5% 0% 2.5%;
+}
+
+#products h5 {
+	margin: 0%;
+}
+
+#products p {
+	color: black;
+}
+
+#products h3 a {
+	text-decoration: none;
+	border-style: solid;
+	padding: 1.25%;
+}
+
+#products h3 a:visited {
+	color: #003399;
+}
+
+#products p a:visited {
+	color: black;
+}
+
+#pBenefits {
+	width: 50%;
+	display: inline-block;
+	float: right;
+	line-height: 150%;
+	padding: 0% 2.5% 0% 2.5%;
+}
+
+#pBenefits h5 {
+	margin: 0%;
+}
+
+.contactForm {
+	margin: 2.5% 2% 0% 2%;
+}
+
+.contactForm h3 {
+	text-align: center;
+}
+
+label {
+	margin: 1% 2% 1% 2%;
+}
+
+input[type=text], textarea {
+	width: 100%;
+	margin: 1% 2% 1% 2%;
+	padding: 1%;
+	box-sizing: border-box;
+	resize: vertical;
+	font-family: Arial;
+}
+
+input[type=submit] {
+	background-color: #003399;
+	color: white;
+	padding: 1%;
+	border: none;
+	margin: 1% 2% 1% 2%;
+	font-family: arial;
+	border-radius: 4px;
+	float: right;
+}
+
+.faq {
+	margin: 7.5% 2% 0% 2%;
+}
+
+.faq h3 {
+	text-align: center;
+}
+
+.faq h5 {
+	margin: 3% 2% 1% 2%;
+}
+
+.faq p {
+	margin: 1% 2% 3% 4%;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+	div {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Arial;
+}
+
+h2, h3, h4, h5, h6 {
+	color: #003399;
+	text-align: center;
+}
+
+h1 {
+	color: #003399;
+	text-decoration: underline;
+}
+
+p {
+	color: black;
+	text-align: center;
+	line-height: 150%;
+}
+
+.navigation li {
+	color: black;
+}
+
+#benefits li {
+	color: #3d3d5c;
+}
+
+.navigation {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.navigation ul {
+	border-top-style: solid;
+	border-bottom-style: solid;
+	padding: 2% 0% 2% 0%;
+	background-color: #003399;
+}
+
+.navigation ul a {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.navigation ul li {
+	padding: 0.5%;
+	color: white;
+}
+
+#social {
+	margin: 2% 0% 2% 0%;
+}
+
+#social img {
+	width: 3.5%;
+}
+
+#logo {
+	display: block;
+	text-align: center;
+	margin: 2% 0% 2% 0%;
+}
+
+#logo img {
+	width: 30%;
+}
+
+#shopNow {
+	text-align: center;
+	margin: 0% 1.25% 0% 0%;
+	padding: 0%;
+}
+
+#shopNow a {
+	text-decoration: none;
+	color: #003399;
+}
+
+#shopNow a:hover {
+	border-style: solid;
+	padding: 1.25%;
+}
+
+#sectors {
+	text-align: center;
+}
+
+#sectors img {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	border-color: black;
+	margin: auto;
+}
+
+#sectors img:hover {
+	opacity: 0.3;
+}
+
+#sectorHalf1 {
+	display: block;
+}
+
+#sectorHalf2 {
+	display: block;
+}
+
+#sector1, #sector2, #sector3, #sector4 {
+	width: 35%;
+	padding: 1.6% 1.6% 1.6% 1.6%;
+	opacity: 1;
+	display: inline-block;
+	margin: auto;
+}
+
+#sectors h3 {
+	text-decoration: ;
+	line-height: 125%;
+}
+
+#welcome h3 {
+	text-align: center;
+}
+
+#welcome p {
+	text-align: center;
+	padding: 0% 0% 0% 0%;
+	line-height: 150%;
+}
+
+#testimonials {
+	text-align: center;
+	padding: 0% 0% 0% 0%;
+}
+
+#benefits {
+	text-align: center;
+}
+
+#benefits h3 {
+	margin: 0;
+}
+
+#list {
+	margin: 0;
+}
+
+#half1, #half2 {
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+}
+
+#half1, #half2 ul {
+	text-align: left;
+}
+
+#benefits li {
+	padding: 5% 0% 0% 0%;
+}
+
+#baTitle {
+	text-align: center;
+}
+
+#beforeAfter {
+	text-align: center;
+	margin: 2.5% 20% 2.5% 20%;
+	height: 30%;
+}
+
+#beforeAfter h3{
+	text-align: center;
+}
+
+#benefits {
+	text-align: center;
+}
+
+#benefits h3 {
+	margin: 0;
+}
+
+#list {
+	margin: 0;
+}
+
+#half1, #half2 {
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+}
+
+#half1, #half2 ul {
+	text-align: left;
+}
+
+#benefits li {
+	padding: 5% 0% 0% 0%;
+}
+
+#baTitle {
+	text-align: center;
+}
+
+#beforeAfter {
+	text-align: center;
+	margin: 2.5% 20% 2.5% 20%;
+	height: 30%;
+}
+
+#beforeAfter h3{
+	text-align: center;
+}
+
+
+#description h3 {
+	text-align: center;
+}
+
+#description p {
+	text-align: center;
+	line-height: 150%;
+}
+
+#products {
+	width: 100%;
+	display: block;
+	float: left;
+	margin: 0% 0% 4% 2%
+}
+
+#pBenefits {
+	width: 100%;
+	display: block;
+	margin: 4% 0% 0% 2%;
+}
+
+#product1 {
+	margin: 5% 0% 0% 0%;
+}
+
+
+#productImage {
+	display: inline-block;
+	width: 25%;
+}
+
+#productImage img{
+	width: 100%;
+	border-style: solid;
+	display: inline-block;
+	margin: 0% 0% 0% 5%;
+}
+
+#productDetails {
+	display: inline-block;
+	width: 65%;
+	vertical-align: top;
+	margin: 0% 0% 0% 2.5%;
+}
+
+#productDetails h5 {
+	margin: 0% 0% 0% 2%;
+	line-height: 150%;
+	text-align: left;
+}
+
+#productDetails p {
+	margin: 0% 0% 0% 2%;
+	line-height: 150%;
+	text-align: left;
+}
+
+#productDetails h6 {
+	margin: 2% 2% 0% 0%;
+	display: inline-block;
+	float: right;
+	border-style: solid;
+	padding: 2%;
+	color: black;
+}
+
+#productDetails h6:hover {
+	background-color: #003399;
+	color: white;
+	border-color: #003399;
+}
+
+#cleaning {
+	margin: 4% 0% 0% 0%;
+}
+
+#pBenefits ul {
+	line-height: 150%;
+	color: #3d3d5c
+}
+
+#cleaningBenefits {
+	margin: 4% 0% 0% 0%;
+}
+
+.contactForm {
+	margin: 2.5% 2% 0% 2%;
+}
+
+label {
+	margin: 1% 2% 1% 2%;
+}
+
+input[type=text], textarea {
+	width: 100%;
+	margin: 1% 2% 1% 2%;
+	padding: 1%;
+	box-sizing: border-box;
+	resize: vertical;
+	font-family: Arial;
+}
+
+input[type=submit] {
+	background-color: #003399;
+	color: white;
+	padding: 1%;
+	border: none;
+	margin: 1% 2% 1% 2%;
+	font-family: arial;
+	border-radius: 4px;
+	float: right;
+}
+
+.faq {
+	margin: 7.5% 2% 0% 2%;
+}
+
+.faq h5 {
+	margin: 3% 2% 1% 2%;
+}
+
+.faq p {
+	margin: 1% 2% 3% 4%;
+}
+
+}
+	
+}

@@ -1,0 +1,67 @@
+.leftNavigationBar {
+	display: inline-block;
+	width: 25%;
+	height: 1000px;
+	float: left;
+	border-top: solid;
+	border-bottom: none;
+	border-right: solid;
+	border-left: solid;
+	position: fixed;
+}
+
+.navigation {
+	color: red;
+}
+
+.navigation ul {
+	text-decoration: none;
+	list-style-type: none;
+	border-color: black;
+	padding: 0px;
+}
+
+.navigation ul a {
+	color: black;
+	list-style-type: none;
+	text-align: justify;
+	padding: 2.5px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navigation ul a:hover {
+	font-style: italic;
+}
+
+.webPageBody {
+	display: inline-block;
+	width: 72%;
+	height: 1000px;
+	float: right;
+	border-style: solid;
+}
+
+.logo {
+	display: block;
+	height: 65px;
+}
+
+.logo img {
+	vertical-align: center;
+	padding-left: 18%;
+	padding-top: 5%
+}
+
+.topBlank {
+	display: block;
+	height: 15%;
+}
+
+.connect img{
+	vertical-align: center;
+	padding: 2.5px;
+}
+
+
